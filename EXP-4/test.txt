@@ -1,0 +1,41 @@
+Speaking in a generic sense, the radio embodies the means for broadcasting as well as pointto-point communications, depending on how it is used.
+The AM radio and FM radio are both so familiar to all of us. (AM stands for amplitude modulation, and FM stands for frequency modulation.) The two of them are built in
+an integrated form inside a single unit, and we find them in every household and installed
+in every car. Via radio we listen to news about local, national, and international events, commentaries, music, and weather forecasts, which are transmitted from broadcasting stations
+that operate in our neighborhood. Traditionally, AM radio and FM radio have been built
+using analog electronics. However, thanks to the ever-increasing improvements and costeffectiveness of digital electronics, digital radio (in both AM and FM forms) is already in
+current use.Radio transmits voice by electrical signals. Television, which operates on similar electromagnetic and communication-theoretic principles, also transmits visual images by electrical signals. A voice signal is naturally defined as a one-dimensional function of time,
+which therefore lends itself readily to signal-processing operations. In contrast, an image
+with motion is a two-dimensional function of time, and therefore requires more detailed
+attention. Specifically, each image at a particular instant of time is viewed as a frame subdivided into a number of small squares called picture elements or pixels; the larger the
+number of pixels used to represent an image, the better the resolution of that image will be. By scanning the pixels in an orderly sequence, the information contained in the image
+is converted into an electrical signal whose magnitude is proportional to the brightness level of the individual pixels. The electrical signal generated at the output of the scanner is the video signal that is transmitted. Generation of the video signal is the result of a welldefined mapping process known to the receiver. Hence, given the video signal, the receiver
+is able to reconstruct the original image. As with digital radio, television is also the beneficiary of spectacular advances in digital electronics. These advances, coupled with the
+application of advanced digital signal processing techniques and the demands of consumers,have motivated the development of high-definition television (HDTV), which provides a significant improvement in the quality of reconstructed images at the receiver output.
+We turn next to the point-to-point communication scene. The radio has also touched our daily lives in highly significant ways through two avenues: satellite communications and
+wireless communications. Satellite communications, built around a satellite in geostationary orbit, relies on line-of-sight radio propagation for the operation of an uplink and a
+downlink. The uplink connects an Earth terminal to a transponder (i.e., electronic circuitry) on board the satellite, while the downlink connects the transponder to another
+Earth terminal. Thus, an information-bearing signal is transmitted from the Earth terminal to the satellite via the uplink, amplified in the transponder, and then retransmitted from
+the satellite via the downlink to the other Earth terminal, as illustrated in Fig. 1.2. In so doing, a satellite communication system offers a unique capability: global coverage.
+In a loose sense, wireless communications operates in a manner similar to satellite communications in that it also involves a downlink and an uplink. The downlink is responsible for forward-link radio transmission from a base station to its mobile users. The uplink
+is responsible for reverse-link radio transmission from the mobile users to their base stations. Unlike satellite communications, the operation of wireless communications is dominated by the multipath phenomenon due to reflections of the transmitted signal from
+objects (e.g., buildings, trees, etc.) that lie in the propagation path. This phenomenon tends to degrade the receiver performance, which makes the design of the receiver a challenging
+task. In any event, wireless communications offers a unique capability of its own: mobility. Moreover, through the use of the cellular concept, the wireless communication system
+is enabled to reuse the radio spectrum over a large area as many times as possible. Within a cell, the available communication resources can be shared by the mobile users operating
+within that cell.The computer was originally conceived as a machine working by itself to perform numerical calculations. However, given the natural ability of a computer to perform logical functions, it was soon recognized that the computer is ideally suited to the design of communication networks. As illustrated in Fig. 1.3, a communication network consists of
+the interconnection of a number of routers that are made up of intelligent processors (e.g.,
+microprocessors). The primary purpose of these processors is to route voice or data through
+the network, hence the name “routers.” Each router has one or more hosts attached to it;
+hosts refer to devices that communicate with one another. The purpose of a network is to
+provide for the delivery or exchange of voice, video, or data among its hosts, which is
+made possible through the use of digital switching. There are two principal forms of switching: circuit switching and packet switching.
+In circuit switching, dedicated communication paths are established for the transmission of messages between two or more terminals, called stations. The communication path
+or circuit consists of a connected sequence of links from source to destination. For example, the links may consist of time slots (as in time-division multiplexed systems), for which
+a common channel is available for multiple users. The important point to note is that once
+it is in place, the circuit remains uninterrupted for the entire duration of transmission. Circuit switching is usually controlled by a centralized hierarchical control mechanism with
+knowledge of the network’s entire organization. To establish a circuit-switched connection,n circuit switching, dedicated communication paths are established for the transmission of messages between two or more terminals, called stations. The communication path
+or circuit consists of a connected sequence of links from source to destination. For example, the links may consist of time slots (as in time-division multiplexed systems), for which
+a common channel is available for multiple users. The important point to note is that once
+it is in place, the circuit remains uninterrupted for the entire duration of transmission. Circuit switching is usually controlled by a centralized hierarchical control mechanism with
+knowledge of the network’s entire organization. To establish a circuit-switched connection,
+
